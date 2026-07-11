@@ -6,8 +6,9 @@ site_author: Kingdom RP
 theme:
   name: material
   language: ru
-  icon:
-    logo: material/castle
+  custom_dir: overrides
+  logo: assets/icons/icon_128x128.png
+  favicon: assets/icons/icon_32x32.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -72,3 +73,7 @@ nav:
 plugins:
   - search:
       lang: ru
+  - git-revision-date-localized:
+      type: date
+      locale: ru
+      fallback_to_build_date: true

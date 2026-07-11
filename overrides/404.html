@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="text-align: center; padding: 4rem 1rem;">
+  <h1 style="font-size: 5rem; margin: 0;">404</h1>
+  <p style="font-size: 1.25rem; font-weight: 600;">Страница не найдена</p>
+  <p>Такой страницы нет или её адрес изменился.</p>
+  <p style="margin-top: 2rem;">
+    <a class="md-button md-button--primary" href="{{ config.site_url }}">
+      На главную
+    </a>
+  </p>
+  <p style="margin-top: 1rem;">
+    Полезное: <a href="{{ config.site_url }}quickstart/">Быстрый старт</a> ·
+    <a href="{{ config.site_url }}glossary/">Глоссарий</a> ·
+    <a href="{{ config.site_url }}faq/">FAQ</a>
+  </p>
+</div>
+{% endblock %}
