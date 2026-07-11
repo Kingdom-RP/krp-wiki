@@ -51,11 +51,11 @@ extra:
 nav:
   - Главная: index.md
   - Пути развития:
-      - ⚔ Война: voina.md
-      - ⛏ Добыча: dobycha.md
-      - 🌾 Промысел: promysel.md
-      - 🔨 Ремесло: remeslo.md
-      - ✨ Магия: magiya.md
+      - ⚔ Война: war.md
+      - ⛏ Добыча: mining.md
+      - 🌾 Промысел: harvest.md
+      - 🔨 Ремесло: craft.md
+      - ✨ Магия: magic.md
 
 plugins:
   - search:
