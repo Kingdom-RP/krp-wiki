@@ -1,4 +1,4 @@
-# Kingdom RP — Вики
+# Kingdom RP wiki
 
 Публичная вики сервера **Kingdom RP**: справочник по системам развития (путям и
 специализациям). Собрана на [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)

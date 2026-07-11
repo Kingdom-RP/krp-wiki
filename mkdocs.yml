@@ -1,4 +1,4 @@
-site_name: Kingdom RP — Вики
+site_name: Kingdom RP wiki
 site_description: Гайд по системам развития сервера Kingdom RP
 site_url: https://kingdom-rp.github.io/krp-wiki/
 site_author: Kingdom RP
@@ -42,6 +42,9 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
+
+extra_javascript:
+  - javascripts/clickable-title.js
 
 extra:
   social:
