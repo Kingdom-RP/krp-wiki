@@ -25,13 +25,18 @@ theme:
         name: Светлая тема
   features:
     - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
     - navigation.tracking
     - navigation.top
     - navigation.sections
+    - navigation.footer
+    - toc.follow
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
-    - toc.follow
+    - content.tooltips
 
 markdown_extensions:
   - tables
