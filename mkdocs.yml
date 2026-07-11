@@ -1,0 +1,62 @@
+site_name: Kingdom RP — Вики
+site_description: Гайд по системам развития сервера Kingdom RP
+site_url: https://kingdom-rp.github.io/krp-wiki/
+site_author: Kingdom RP
+
+theme:
+  name: material
+  language: ru
+  icon:
+    logo: material/castle
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Kingdom-RP
+
+nav:
+  - Главная: index.md
+  - Пути развития:
+      - ⚔ Война: voina.md
+      - ⛏ Добыча: dobycha.md
+      - 🌾 Промысел: promysel.md
+      - 🔨 Ремесло: remeslo.md
+      - ✨ Магия: magiya.md
+
+plugins:
+  - search:
+      lang: ru
